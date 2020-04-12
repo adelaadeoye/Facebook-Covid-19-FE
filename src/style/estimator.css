@@ -1,0 +1,30 @@
+.inputs{
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+.form{
+    width: 80%;
+   
+margin:  10px auto  ;  
+}
+.submit{
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    border: 0px;
+    color: white;
+    font-size: larger;
+    
+}
+.submit:hover{
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+border: 1px solid blue;    color: black;
+    font-size: larger;
+    
+}
