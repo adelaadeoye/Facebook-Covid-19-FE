@@ -8,6 +8,8 @@ import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 import IconButton from "@material-ui/core/IconButton";
 import logo from "../images/logo.png";
+import Darkmode from 'darkmode-js';
+ 
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,8 +30,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 export default function EstimatorForm() {
-  const classes = useStyles();
 
+  const classes = useStyles();
+  const options ={
+    label:"Dark Mode"
+  }
+  const darkmode = new Darkmode(options);
+darkmode.showWidget();
   return (
     <div className={classes.root}>
       <AppBar position="static">
