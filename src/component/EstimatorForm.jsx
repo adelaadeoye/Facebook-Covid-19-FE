@@ -35,13 +35,13 @@ export default function EstimatorForm() {
   const options ={
     label:"Dark Mode"
   }
-  const darkmode = new Darkmode(options);
-darkmode.showWidget();
+//   const darkmode = new Darkmode(options);
+// darkmode.showWidget();
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
+          {/* <IconButton
             edge="start"
             className={classes.menuButton}
             color="inherit"
@@ -53,7 +53,7 @@ darkmode.showWidget();
               width="40px"
               style={{ background: "white" }}
             />
-          </IconButton>
+          </IconButton> */}
           <Typography variant="h6" className={classes.title}>
             Andela Covid-19 Estimator
           </Typography>
