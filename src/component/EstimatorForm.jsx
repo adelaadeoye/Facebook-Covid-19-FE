@@ -23,9 +23,9 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   container: {
-    border: "1px solid black",
+    // border: "1px solid black",
     padding:"20px",
-    boxShadow: "3px 3px 2px 2px grey"
+    boxShadow: "0 2px 3px grey"
 
   },
 }));
