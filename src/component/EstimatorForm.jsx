@@ -121,9 +121,7 @@ export default function EstimatorForm() {
                   id="period-type"
                   data-period-type
                 >
-                  <option disabled selected>
-                    Select Period
-                  </option>
+                
                   <option value="days">Days</option>
                   <option value="weeks">Weeks</option>
                   <option value="months">Months</option>
