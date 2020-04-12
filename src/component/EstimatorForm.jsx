@@ -39,9 +39,9 @@ export default function EstimatorForm() {
 // darkmode.showWidget();
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      {/* <AppBar position="static">
         <Toolbar>
-          {/* <IconButton
+          <IconButton
             edge="start"
             className={classes.menuButton}
             color="inherit"
@@ -53,12 +53,12 @@ export default function EstimatorForm() {
               width="40px"
               style={{ background: "white" }}
             />
-          </IconButton> */}
+          </IconButton>
           <Typography variant="h6" className={classes.title}>
             Andela Covid-19 Estimator
           </Typography>
         </Toolbar>
-      </AppBar>
+      </AppBar> */}
       <div className="form">
         <Container maxWidth="xs" className={classes.container}>
           <Grid container spacing={1}>
