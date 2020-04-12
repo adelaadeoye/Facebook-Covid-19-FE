@@ -121,7 +121,7 @@ export default function EstimatorForm() {
                   id="period-type"
                   data-period-type
                 >
-                  <option disabled defaultValue>
+                  <option disabled selected>
                     Select Period
                   </option>
                   <option value="days">Days</option>
@@ -130,7 +130,7 @@ export default function EstimatorForm() {
                 </select>
               </Grid>
               <Grid item xs={12} >
-                <button className="submit">Submit</button>
+                <button className="submit"data-go-estimate>Submit</button>
               </Grid>
           </Grid>
         </Container>
